@@ -7,11 +7,14 @@ import Calculator from "./components/Calculator";
 import Greetings from "./components/Greetings";
 import ProductInfo from "./components/ProductInfo";
 import Names from "./components/Names";
+import UserList from "./components/UserList";
+import UseStates from "./components/UseStates";
+import Student from "./components/Student";
 
 const App = () => {
   return (
     <div>
-      <ProductInfo />
+      <Student />
     </div>
   );
 };

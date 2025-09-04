@@ -51,13 +51,13 @@ const ProductInfo = () => {
 
   return (
     <main>
-      {products.map((product, index) => (
+      {products.map(({ name, price, description, features }, index) => (
         <div key={index}>
-          <h1>{product.name}</h1>
-          <h1>{product.price}</h1>
-          <p>{product.description}</p>
+          <h1>{name}</h1>
+          <h1>{price}</h1>
+          <p>{description}</p>
           <ul>
-            <li>{product.features}</li>
+            <li>{features}</li>
           </ul>
         </div>
       ))}
