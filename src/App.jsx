@@ -12,11 +12,15 @@ import UseStates from "./components/UseStates";
 import Student from "./components/Student";
 import Card from "./components/Card";
 import Valid from "./components/Valid";
+import Cart from "./components/Cart";
+import Weather from "./components/Weather";
+import UserStatus from "./components/UserStatus";
+import Greetingss from "./components/Greetingss";
 
 const App = () => {
   return (
     <div>
-      <Valid isValid={false} />
+      <Greetingss timeofDay="morning" />
     </div>
   );
 };
