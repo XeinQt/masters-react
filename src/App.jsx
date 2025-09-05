@@ -17,11 +17,12 @@ import Weather from "./components/Weather";
 import UserStatus from "./components/UserStatus";
 import Greetingss from "./components/Greetingss";
 import Stayl from "./components/styling/Stayl";
+import Butoons from "./components/buttons/Butoons";
 
 const App = () => {
   return (
     <div>
-      <Stayl />
+      <Butoons />
     </div>
   );
 };
