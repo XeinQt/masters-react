@@ -1,1 +1,12 @@
 @import "tailwindcss";
+
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.logo {
+  color: rgb(184, 13, 13);
+  background-color: pink;
+}

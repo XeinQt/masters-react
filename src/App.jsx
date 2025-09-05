@@ -16,11 +16,12 @@ import Cart from "./components/Cart";
 import Weather from "./components/Weather";
 import UserStatus from "./components/UserStatus";
 import Greetingss from "./components/Greetingss";
+import Stayl from "./components/styling/Stayl";
 
 const App = () => {
   return (
     <div>
-      <Greetingss timeofDay="morning" />
+      <Stayl />
     </div>
   );
 };
