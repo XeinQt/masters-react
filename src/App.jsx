@@ -18,11 +18,12 @@ import UserStatus from "./components/UserStatus";
 import Greetingss from "./components/Greetingss";
 import Stayl from "./components/styling/Stayl";
 import Butoons from "./components/buttons/Butoons";
+import Friends from "./components/CRUD/Friends";
 
 const App = () => {
   return (
     <div>
-      <Butoons />
+      <Friends />
     </div>
   );
 };
